@@ -1,0 +1,50 @@
+@import '../../../scss/variables';
+
+main{
+    padding: $main-vertical-padding $main-horizontal-padding;
+
+    & h1{
+        text-align: center;
+        font-size: $h1;
+        font-family: $oswald;
+        font-weight: $regular;
+        text-transform: uppercase;
+        border: $border-size solid $black;
+    }
+
+    & .wrapper{
+        padding-top: $main-vertical-padding;
+        display: flex;
+        gap: 10rem;
+
+       & .navigation{
+         width: 40%;
+         
+        
+            & h2{
+                font-family: $outfit;
+                font-size: $h2;
+                font-weight: $regular;
+                max-width: 100px;
+            }
+
+            & nav{
+                padding-top: 4rem;
+            }
+
+            & p{
+                font-family: $rajhdani;
+                font-size: $p;
+                font-weight: $medium;
+            }
+        }
+       
+        & .img-container{
+            height: 900px;
+            width: 60%;
+            background: url('../../../assets/hero-image.png');
+            background-repeat: no-repeat;
+            background-size: contai;
+        }
+    }
+}
