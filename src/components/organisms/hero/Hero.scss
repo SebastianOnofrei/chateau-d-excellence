@@ -1,7 +1,7 @@
 @import '../../../scss/variables';
 
 main{
-    padding: $main-vertical-padding $main-horizontal-padding;
+    padding: $vertical-padding $horizontal-padding;
 
     & h1{
         text-align: center;
@@ -13,7 +13,7 @@ main{
     }
 
     & .wrapper{
-        padding-top: $main-vertical-padding;
+        padding-top: $vertical-padding;
         display: flex;
         gap: 10rem;
 
@@ -40,11 +40,10 @@ main{
         }
        
         & .img-container{
-            height: 900px;
             width: 60%;
             background: url('../../../assets/hero-image.png');
             background-repeat: no-repeat;
-            background-size: contai;
+            background-size: contain;
         }
     }
 }

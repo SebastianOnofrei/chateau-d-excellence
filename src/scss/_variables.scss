@@ -1,10 +1,19 @@
 @import './typography';
 @import './colors';
 
+
+$border-size: 0.2rem;
+$horizontal-padding:6rem;
+
 /****************
  * MAIN SECTION *
  ****************/
 
- $border-size: 0.2rem;
- $main-vertical-padding:3rem;
- $main-horizontal-padding:4rem;
+ $vertical-padding:3rem;
+ 
+
+/*********
+ * ABOUT *
+ *********/
+
+ $about-vertical-padding:6rem;

@@ -1,0 +1,90 @@
+@import '../../../scss/variables';
+
+.about {
+    display: grid;
+    padding: $about-vertical-padding $horizontal-padding;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10rem;
+    grid-row-gap: 10rem;
+    background-color: $black;
+
+    & .about-photo1 {
+         grid-area: 1 / 1 / 2 / 3; 
+         background: url('../../../assets/about-img-1.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+        }
+
+    & .about-intro {
+         grid-area: 1 / 3 / 2 / 6; 
+         border-top: 1px solid white;
+
+         & h2{
+            padding-top: 2rem;
+            max-width: 40rem;
+            color: $white;
+            font-size: $h2;
+            font-family: $oswald;
+            text-transform: uppercase;
+            font-weight: $regular;
+         }
+
+         & p{
+            padding-top: 4rem;
+            color: $white;
+            font-size: $p;
+            font-family: $rajhdani;
+            font-weight: $regular;
+            line-height: 2.7rem;
+            opacity: .5;
+         }
+        }
+
+    & .about-details {
+         grid-area: 2 / 1 / 3 / 3;
+         background-color: $white;
+         padding: $about-vertical-padding;
+         position: relative;
+
+         & h3{
+            padding-top: 2rem;
+            color: $black;
+            font-size: $h3;
+            font-family: $oswald;
+            text-transform: uppercase;
+            font-weight: $regular;
+         }
+
+         & p{
+            padding-top: 2rem;
+            color: $black;
+            font-size: $details;
+            font-family: $rajhdani;
+            font-weight: $regular;
+            line-height: 2.5rem;
+            
+         }
+
+         & .decorational-line{
+            width: 6rem;
+            height: 2px;
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: $black;
+         }
+
+        }
+
+    & .about-photo2 {
+         grid-area: 2 / 3 / 3 / 6; 
+         background: url('../../../assets/about-img-2.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         
+        }
+}
+

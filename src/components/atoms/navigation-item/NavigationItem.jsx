@@ -5,7 +5,7 @@ const NavigationItem = (props) => {
   return (
     <li>
         <span className="horizontal-line"></span>
-        <a href={'/'+props.text}>{props.text}</a>
+        <a href={'#'+props.text}>{props.text}</a>
     </li>
   )
 }
