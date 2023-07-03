@@ -1,0 +1,14 @@
+@import '../../../scss/variables';
+
+footer{
+    padding: $vertical-padding $horizontal-padding; 
+    background-color: $black;
+
+    & p{
+        color: $white;
+        font-size: $details;
+        font-family:$rajhdani;
+        font-weight: $regular;
+        text-transform: uppercase;
+    }
+}
