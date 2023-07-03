@@ -14,6 +14,7 @@ function App() {
      <OurMission/>
      <Portfolio/>
      <Newsletter/>
+     <Footer/>
     </>
   )
 }

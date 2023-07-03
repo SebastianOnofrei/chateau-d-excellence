@@ -3,31 +3,104 @@
 .newsletter{
     display: flex;
     justify-content: space-between;
-    padding: $vertical-padding $horizontal-padding;
+    gap: 6rem;
+    padding: $newsletter-vertical-padding $horizontal-padding;
+
     & .links{
         display: flex;
         justify-content: space-between;
         gap: 6rem;
     }
 
+    & .connect{
+        padding-top: 1rem;
+        border-top: 2px solid $black;
+
+        & p{
+            padding-top: $vertical-padding;
+            max-width: 40rem;
+            color: #000;
+            font-size: $details;
+            font-family: $rajhdani;
+            font-style: normal;
+            font-weight: $regular;
+            line-height: 2.6rem;
+        }
+
+        & form{
+            display: flex;
+            align-items: center;
+            padding-top: $vertical-padding;
+            
+
+            & input{
+                padding: 1.8rem 2rem;
+                height: 3.5rem;
+                width: 50%;
+                font-family: $oswald;
+            }
+
+            & button{
+                display: flex;
+                align-items: center;
+                padding: 2rem 4rem;
+                border: none;
+                height: 3.5rem;
+                background-color: $black;
+                color: $white;
+                font-family: $oswald;
+                font-size: $details;
+                cursor: pointer;
+                
+            }
+        }
+    }
+
     & .location{
+
+        padding-top: 1rem;   
+        border-top: 2px solid $black;
 
         &  .location-google-map{
             display: flex;
             align-items: center;
-
-           
+            gap: 1rem;
+            margin-top: 3rem;
         }
-
 
         & .phone{
             display: flex;
             align-items: center;
+            gap: 1rem;
+
+            & .phone-line{
+                color: $black;
+                font-size: $details;
+                font-weight: $regular;
+                
+            }
         }
 
         & p{
-
+            color: $black;
+            
+            /* footerText */
+            font-size: $newsletter-p;
+            font-family: $rajhdani;
+            font-style: normal;
+            font-weight: $regular;
+            line-height: 1.6rem;
         }
+    }
+
+    & .explore{
+        border-top: 2px solid $black;
+        padding-top: 1rem;
+    }
+
+    & .policy{
+        border-top: 2px solid $black;
+        padding-top: 1rem;
     }
 
     & ul{
@@ -54,6 +127,8 @@
        width: 40px;
        border-top: 2px solid black;
     }
+
+   
 
     & h5{
         color: $black;

@@ -14,7 +14,7 @@ const Newsletter = () => {
 				<h5>Connect with us</h5>
 				<p>Subscribe to get notified about new design and news. </p>
 				<form action="#">
-					<input type="email" name="email" id="email" />
+					<input type="email" name="email" id="email" placeholder='Email address' />
 					<button>Join</button>
 				</form>
 			</div>
@@ -31,7 +31,7 @@ const Newsletter = () => {
 						<span>
 							<img src={phone} alt="phone" />
 						</span>
-						<a href="tel:+123456789">+123 456 789</a>
+						<a href="tel:+123456789" className='phone-line'>+123 456 789</a>
 					</div>
 				</div>
 				<div className="explore">
