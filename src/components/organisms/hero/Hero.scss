@@ -22,10 +22,11 @@ main{
          
         
             & h2{
-                font-family: $outfit;
+                font-family: $rajhdani;
                 font-size: $h2;
-                font-weight: $regular;
+                font-weight: $bold;
                 max-width: 100px;
+                text-transform: uppercase;
             }
 
             & nav{
