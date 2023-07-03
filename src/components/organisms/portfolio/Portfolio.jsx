@@ -3,7 +3,7 @@ import './Portfolio.scss';
 
 const Portfolio = () => {
   return (
-		<section className="portfolio">
+		<section className="portfolio" id='Portfolio'>
 			<div className="portfolio__about">
 				<h2>Portfolio</h2>
 				<p>

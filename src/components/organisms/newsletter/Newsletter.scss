@@ -1,0 +1,66 @@
+@import '../../../scss/variables';
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    padding: $vertical-padding $horizontal-padding;
+    & .links{
+        display: flex;
+        justify-content: space-between;
+        gap: 6rem;
+    }
+
+    & .location{
+
+        &  .location-google-map{
+            display: flex;
+            align-items: center;
+
+           
+        }
+
+
+        & .phone{
+            display: flex;
+            align-items: center;
+        }
+
+        & p{
+
+        }
+    }
+
+    & ul{
+
+        display: flex;
+        flex-direction: column;
+        padding-top: $vertical-padding;
+        gap: 2rem;
+
+        & li{
+            display: flex;
+            gap: 4rem;
+            padding: 0;
+        }
+
+        & .footer-link{
+            display: flex;
+            font-size: $newsletter-p;
+            
+        }
+    }
+
+    & .decorational-line{
+       width: 40px;
+       border-top: 2px solid black;
+    }
+
+    & h5{
+        color: $black;
+        font-size: $p;
+        font-family: $oswald;
+        font-style: normal;
+        font-weight: $regular;
+        line-height: 2.5rem;
+    }
+}

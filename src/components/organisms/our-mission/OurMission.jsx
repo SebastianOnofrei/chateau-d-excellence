@@ -3,7 +3,7 @@ import './OurMission.scss';
 
 const OurMission = () => {
   return (
-		<section className="our-mission">
+		<section className="our-mission" id='Mission'>
 			<div className="our-mission__intro">
 				<h2>Our mission</h2>
 				<h2>make your dreams come true</h2>
