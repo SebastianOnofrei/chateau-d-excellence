@@ -6,6 +6,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+  
     
     & .horizontal-line{
         width: 4rem;
@@ -19,6 +21,11 @@ li {
         font-weight: $regular;
         font-family: $rajhdani;
         font-size: $p;
-
+        transition: all .15s ease-in-out;
+        
+        &:hover{
+            font-weight: $bold;
+            font-size: $h3;
+        }
     }
 }

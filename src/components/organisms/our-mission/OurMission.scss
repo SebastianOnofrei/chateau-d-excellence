@@ -1,0 +1,59 @@
+@import '../../../scss/variables';
+
+.our-mission{
+    display: flex;
+    padding: $vertical-padding $horizontal-padding;
+    gap: 10rem;
+    & .our-mission__intro{
+        width: 50%;
+        border-top: 2px solid $black;
+
+        & h2{
+            font-size: $h2;
+            font-family: $oswald;
+            font-weight: $regular;
+            line-height: 5.7rem;
+            text-transform: uppercase;
+            
+        }
+
+        & p{
+            padding-top: 6rem;
+            color: $black;
+            font-size: $p;
+            font-family: $rajhdani;
+            font-weight: $regular;
+            line-height: 2.9rem;
+            padding-bottom: 10rem;
+        }
+
+        & .our-mission__details{
+            background-color: $black;
+            padding: $our-mission-padding;
+
+            & h3{
+                color: $white;
+                font-size: $h3;
+                font-family: $oswald;
+                font-weight: $regular;
+                line-height: 2.5rem;
+            }
+
+            & p{
+                color: $white;
+                font-size: $details;
+                font-family: $rajhdani;
+                font-weight: $regular;
+                line-height: 2.9rem;
+                opacity: .5;
+            }
+        }
+    }
+
+    & .our-mission__img-container{
+        width: 50%;
+        background: url('../../../assets/our-mission-photo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
