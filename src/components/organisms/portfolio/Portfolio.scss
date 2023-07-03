@@ -1,0 +1,77 @@
+@import '../../../scss/variables';
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10rem;
+    grid-row-gap: 6rem;
+    background-color: $black;
+    padding: $vertical-padding $horizontal-padding;
+}
+
+
+.portfolio__about {
+    grid-area: 1 / 1 / 2 / 2; 
+    border-top: 2px solid rgba($color: #fff, $alpha: 0.5);
+
+    & h2{
+        padding-top: 3rem;
+        color: $white;
+        font-size: $h2;
+        font-family: $oswald;
+        font-weight: $regular;
+        line-height: 5.7rem;
+        text-transform: uppercase;
+    }
+
+    & p{
+        padding-top: 6rem;
+        color: #FFF;
+        font-size: $p;
+        font-family: $rajhdani;
+        font-weight: $regular;
+        line-height: 2.7rem;
+    }
+}
+
+
+.portfolio-img{
+    height:35rem;
+}
+
+.portfolio__img-1 {
+    grid-area: 1 / 2 / 2 / 3; 
+    background: url('../../../assets/portfolio-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.portfolio__img-2 {
+    grid-area: 2 / 1 / 3 / 2;
+    background: url('../../../assets/portfolio-2.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio__img-3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background: url('../../../assets/portfolio-3.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.portfolio__img-4 {
+    grid-area: 3 / 1 / 4 / 2;
+    background: url('../../../assets/portfolio-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.portfolio__img-5 { 
+    grid-area: 3 / 2 / 4 / 3;
+    background: url('../../../assets/portfolio-5.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}

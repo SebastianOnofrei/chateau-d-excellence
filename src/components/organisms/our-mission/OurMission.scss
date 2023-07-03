@@ -3,7 +3,7 @@
 .our-mission{
     display: flex;
     padding: $vertical-padding $horizontal-padding;
-    gap: 10rem;
+    gap: 15rem;
     & .our-mission__intro{
         width: 50%;
         border-top: 2px solid $black;
@@ -29,7 +29,7 @@
 
         & .our-mission__details{
             background-color: $black;
-            padding: $our-mission-padding;
+            padding: $vertical-padding $our-mission-padding;
 
             & h3{
                 color: $white;
@@ -42,10 +42,8 @@
             & p{
                 color: $white;
                 font-size: $details;
-                font-family: $rajhdani;
-                font-weight: $regular;
-                line-height: 2.9rem;
                 opacity: .5;
+                padding: $vertical-padding 0;
             }
         }
     }
