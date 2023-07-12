@@ -15,12 +15,19 @@ main{
     & .wrapper{
         padding-top: $vertical-padding;
         display: flex;
+        flex-direction: row;
         gap: 10rem;
 
+        @media (max-width:$xl){
+            flex-direction: column-reverse;
+        }
+
        & .navigation{
-         width: 40%;
-         
+            @media (max-width:$xl){
+                width: 100%;
+            }
         
+            width: 40%;
             & h2{
                 font-family: $rajhdani;
                 font-size: $h2;
@@ -41,7 +48,13 @@ main{
         }
        
         & .img-container{
-            @media (min-width:$xxl){
+            @media (min-width:$xxxl){
+                background-size: cover;
+            }
+
+            @media (max-width:$xl){
+                width: 100%;
+                min-height: 584px;
                 background-size: cover;
             }
             

@@ -12,7 +12,7 @@
     
    & .about-photo1 {
 
-      @media (min-width:$xxl){
+      @media (min-width:$xl){
          background-size: cover;
       }
       grid-area: 1 / 1 / 2 / 3; 
@@ -85,7 +85,7 @@
    }
 
    & .about-photo2 {
-      @media (min-width:$xxl){
+      @media (min-width:$xl){
          background-size: cover;
       }
       grid-area: 2 / 3 / 3 / 6; 
