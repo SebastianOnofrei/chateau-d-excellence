@@ -1,6 +1,11 @@
 @import '../../../scss/variables';
 
 .about {
+
+    @media(max-width:$xl){
+      display: flex;
+      flex-direction: column;
+    }
     display: grid;
     padding: $about-vertical-padding $horizontal-padding;
     grid-template-columns: repeat(5, 1fr);
