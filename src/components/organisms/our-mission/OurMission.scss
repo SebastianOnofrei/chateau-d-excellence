@@ -49,6 +49,9 @@
     }
 
     & .our-mission__img-container{
+        @media (min-width:$xxl){
+            background-size: cover;
+        }
         width: 50%;
         background: url('../../../assets/our-mission-photo.png');
         background-repeat: no-repeat;

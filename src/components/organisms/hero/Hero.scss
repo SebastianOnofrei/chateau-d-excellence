@@ -41,6 +41,10 @@ main{
         }
        
         & .img-container{
+            @media (min-width:$xxl){
+                background-size: cover;
+            }
+            
             width: 60%;
             background: url('../../../assets/hero-image.png');
             background-repeat: no-repeat;
