@@ -44,7 +44,7 @@
     grid-area: 1 / 2 / 2 / 3; 
     background: url('../../../assets/portfolio-1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 
@@ -52,26 +52,26 @@
     grid-area: 2 / 1 / 3 / 2;
     background: url('../../../assets/portfolio-2.png'); 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .portfolio__img-3 {
     grid-area: 2 / 2 / 3 / 3;
     background: url('../../../assets/portfolio-3.png');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: contain; 
 }
 
 .portfolio__img-4 {
     grid-area: 3 / 1 / 4 / 2;
     background: url('../../../assets/portfolio-4.png');
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: contain;  
 }
 
 .portfolio__img-5 { 
     grid-area: 3 / 2 / 4 / 3;
     background: url('../../../assets/portfolio-5.png');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: contain; 
 }

@@ -44,7 +44,7 @@ main{
             width: 60%;
             background: url('../../../assets/hero-image.png');
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
         }
     }
 }

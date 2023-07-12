@@ -12,7 +12,7 @@
     & .about-photo1 {
          grid-area: 1 / 1 / 2 / 3; 
          background: url('../../../assets/about-img-1.png');
-         background-size: cover;
+         background-size: contain;
          background-repeat: no-repeat;
          background-position: center;
         }
@@ -81,7 +81,7 @@
     & .about-photo2 {
          grid-area: 2 / 3 / 3 / 6; 
          background: url('../../../assets/about-img-2.png');
-         background-size: cover;
+         background-size: contain;
          background-repeat: no-repeat;
          background-position: center;
          
