@@ -29,7 +29,7 @@ main{
         flex-direction: row;
         gap: 10rem;
 
-        @media (max-width:$xxl){
+        @media (max-width:$xl){
             flex-direction: column-reverse;
             gap: 1rem;
         }

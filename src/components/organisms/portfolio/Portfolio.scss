@@ -10,7 +10,7 @@
         padding: 3rem;
     }
 
-    @media (min-width:$sm){
+    @media (min-width:$sm) and (max-width:$xl){
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
@@ -64,7 +64,7 @@
 
 .portfolio-img{
 
-    height:45rem;
+    height:65rem;
 }
 
 .portfolio__img-1 {
@@ -74,9 +74,10 @@
         background-size: contain;
     }
 
-    @media (min-width:$sm){
+    @media (min-width:$sm) and (max-width:$xl){
         grid-area: 2 / 1 / 3 / 2;
         background-size: cover;
+        background-position: center;
     }
 
     @media (min-width:$xxl){
@@ -86,6 +87,7 @@
     background: url('../../../assets/portfolio-1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -96,9 +98,10 @@
         height: 160px;
         background-size: contain;
     }
-    @media (min-width:$sm){
+    @media (min-width:$sm) and (max-width:$xl){
         grid-area: 3 / 1 / 4 / 2;
         background-size: cover;
+        background-position: center;
     }
 
     @media (min-width:$xxl){
@@ -108,6 +111,7 @@
     background: url('../../../assets/portfolio-2.png'); 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .portfolio__img-3 {
@@ -116,9 +120,11 @@
         height: 160px;
         background-size: contain;
     }
-    @media (min-width:$sm){
+    @media (min-width:$sm) and (max-width:$xl){
         grid-area: 4 / 1 / 5 / 2;
         background-size: cover;
+        background-position: center;
+        background-position: center;
     }
 
     @media (min-width:$xxl){
@@ -127,7 +133,8 @@
     grid-area: 2 / 2 / 3 / 3;
     background: url('../../../assets/portfolio-3.png');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    background-position: center; 
 }
 
 .portfolio__img-4 {
@@ -136,14 +143,16 @@
         height: 160px;
         background-size: contain;
     }
-    @media (min-width:$sm){
+    @media (min-width:$sm) and (max-width:$xl){
         grid-area: 5 / 1 / 6 / 2;
         background-size: cover;
+        background-position: center;
     }
     grid-area: 3 / 1 / 4 / 2;
     background: url('../../../assets/portfolio-4.png');
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover; 
+    background-position: center; 
 }
 
 .portfolio__img-5 { 
@@ -152,9 +161,10 @@
         height: 160px;
         background-size: contain;
     }
-    @media (min-width:$sm){
+    @media (min-width:$sm) and (max-width:$xl){
         grid-area: 6 / 1 / 7 / 2;
         background-size: cover;
+        background-position: center;
     }
 
     @media (min-width:$xxl){
@@ -164,4 +174,5 @@
     background: url('../../../assets/portfolio-5.png');
     background-repeat: no-repeat;
     background-size: cover; 
+    background-position: center;
 }

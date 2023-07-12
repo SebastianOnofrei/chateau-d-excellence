@@ -9,7 +9,7 @@
       flex-direction: column; 
    }
 
-    @media(min-width:$sm){
+    @media(min-width:$sm) and (max-width:$xl){
       display: flex;
       flex-direction: column;
     }

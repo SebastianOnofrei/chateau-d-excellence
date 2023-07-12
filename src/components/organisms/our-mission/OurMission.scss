@@ -6,7 +6,7 @@
         flex-direction: column;
         gap: 2rem;
     }
-    @media(min-width:$sm){
+    @media(min-width:$sm) and (max-width:$lg){
         flex-direction: column;
         gap: 6rem;
     }
@@ -81,13 +81,16 @@
             background-position: center;
         }
 
-        @media (min-width:$lg){
+        @media (min-width:$lg) and (max-width:$xl){
+            
             background-size: cover;
             background-position: center;
         }
 
         @media (min-width: $xxxl){
             height: 1000px;
+            background-size: contain;
+            background-position: center;
         }
         width: 50%;
         background: url('../../../assets/our-mission-photo.png');
