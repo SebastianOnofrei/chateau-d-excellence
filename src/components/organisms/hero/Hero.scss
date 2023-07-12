@@ -4,6 +4,10 @@ main{
     padding: $vertical-padding $horizontal-padding;
 
     & h1{
+        @media(max-width:$md){
+            font-size: 6.5rem;
+            padding: 1rem;
+        }
         text-align: center;
         font-size: $h1;
         font-family: $oswald;
@@ -18,8 +22,9 @@ main{
         flex-direction: row;
         gap: 10rem;
 
-        @media (max-width:$xl){
+        @media (max-width:$xxl){
             flex-direction: column-reverse;
+            gap: 0;
         }
 
        & .navigation{
@@ -48,15 +53,30 @@ main{
         }
        
         & .img-container{
+
+            @media (max-width:$md){
+                background-size: contain;
+                width: 100%;
+                min-height: 425px;
+            }
+            
+            @media (min-width:$md){
+                width: 100%;
+                min-height: 584px;
+                background-size: contain;
+            }
+
+            @media (min-width:$lg){
+                width: 100%;
+                height: 640px;
+                background-size: contain;
+                 
+            }
+            
             @media (min-width:$xxxl){
                 background-size: cover;
             }
 
-            @media (max-width:$xl){
-                width: 100%;
-                min-height: 584px;
-                background-size: cover;
-            }
             
             width: 60%;
             background: url('../../../assets/hero-image.png');
