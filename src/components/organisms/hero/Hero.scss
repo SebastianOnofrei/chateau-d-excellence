@@ -1,10 +1,17 @@
 @import '../../../scss/variables';
 
 main{
+    @media(max-width:$sm){
+        padding: 3rem 2rem;
+    }
     padding: $vertical-padding $horizontal-padding;
 
     & h1{
-        @media(max-width:$md){
+
+        @media(max-width:$sm){
+            font-size: 3rem;
+        }
+        @media(min-width:$sm){
             font-size: 6.5rem;
             padding: 1rem;
         }
@@ -53,8 +60,14 @@ main{
         }
        
         & .img-container{
+            
+            @media (max-width:$sm) {
+                background-size: contain;
+                width: 100%;
+                min-height: 290px;
+            }
 
-            @media (max-width:$md){
+            @media (min-width:$sm){
                 background-size: contain;
                 width: 100%;
                 min-height: 425px;

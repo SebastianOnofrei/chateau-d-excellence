@@ -1,6 +1,9 @@
 @import '../../../scss/variables';
 
 li {
+    @media (max-width:$sm){
+        padding-bottom: 2rem;
+    }
     padding-bottom: 6rem;
     list-style: none;
     display: flex;
