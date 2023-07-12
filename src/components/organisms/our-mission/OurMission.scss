@@ -2,13 +2,17 @@
 
 .our-mission{
 
-    @media(max-width:$xl){
-
+    @media(max-width:$lg){
+        flex-direction: column;
+        gap: 6rem;
     }
     display: flex;
     padding: $vertical-padding $horizontal-padding;
     gap: 15rem;
     & .our-mission__intro{
+        @media(max-width:$lg){
+            width: 100%;
+        }
         width: 50%;
         border-top: 2px solid $black;
 
@@ -64,6 +68,15 @@
     }
 
     & .our-mission__img-container{
+
+        @media (max-width:$lg){
+            width: 100%;
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
         @media (min-width:$lg){
             background-size: cover;
             background-position: center;
