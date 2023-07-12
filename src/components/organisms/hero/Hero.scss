@@ -24,7 +24,7 @@ main{
 
         @media (max-width:$xxl){
             flex-direction: column-reverse;
-            gap: 0;
+            gap: 1rem;
         }
 
        & .navigation{
@@ -62,7 +62,7 @@ main{
             
             @media (min-width:$md){
                 width: 100%;
-                min-height: 584px;
+                min-height: 500px;
                 background-size: contain;
             }
 
