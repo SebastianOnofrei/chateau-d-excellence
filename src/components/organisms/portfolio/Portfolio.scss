@@ -1,11 +1,16 @@
 @import '../../../scss/variables';
 
-
-
 .portfolio {
 
+    @media (max-width:$sm){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
 
-    @media (max-width:$xl){
+    @media (min-width:$sm){
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
@@ -39,7 +44,11 @@
     }
 
     & p{
-        @media(max-width:$xl){
+
+        @media (max-width:$sm){
+            font-size: 2rem;
+        }
+        @media(min-width:$sm){
             line-height: 4.7rem;
             font-size: 3rem;
         }
@@ -54,12 +63,18 @@
 
 
 .portfolio-img{
+
     height:45rem;
 }
 
 .portfolio__img-1 {
+    @media(max-width:$sm){
+        width: 100%;
+        height: 160px;
+        background-size: contain;
+    }
 
-    @media (max-width:$xl){
+    @media (min-width:$sm){
         grid-area: 2 / 1 / 3 / 2;
         background-size: cover;
     }
@@ -75,7 +90,13 @@
 
 
 .portfolio__img-2 {
-    @media (max-width:$xl){
+
+    @media(max-width:$sm){
+        width: 100%;
+        height: 160px;
+        background-size: contain;
+    }
+    @media (min-width:$sm){
         grid-area: 3 / 1 / 4 / 2;
         background-size: cover;
     }
@@ -90,7 +111,12 @@
 }
 
 .portfolio__img-3 {
-    @media (max-width:$xl){
+    @media(max-width:$sm){
+        width: 100%;
+        height: 160px;
+        background-size: contain;
+    }
+    @media (min-width:$sm){
         grid-area: 4 / 1 / 5 / 2;
         background-size: cover;
     }
@@ -105,7 +131,12 @@
 }
 
 .portfolio__img-4 {
-    @media (max-width:$xl){
+    @media(max-width:$sm){
+        width: 100%;
+        height: 160px;
+        background-size: contain;
+    }
+    @media (min-width:$sm){
         grid-area: 5 / 1 / 6 / 2;
         background-size: cover;
     }
@@ -116,7 +147,12 @@
 }
 
 .portfolio__img-5 { 
-    @media (max-width:$xl){
+    @media(max-width:$sm){
+        width: 100%;
+        height: 160px;
+        background-size: contain;
+    }
+    @media (min-width:$sm){
         grid-area: 6 / 1 / 7 / 2;
         background-size: cover;
     }
