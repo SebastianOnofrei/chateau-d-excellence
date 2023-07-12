@@ -11,6 +11,9 @@
     padding: $newsletter-vertical-padding $horizontal-padding;
 
     & .links{
+        @media (max-width:$sm){
+            flex-direction: column;
+        }
         display: flex;
         justify-content: space-between;
         gap: 6rem;

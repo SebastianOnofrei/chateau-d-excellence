@@ -14,8 +14,8 @@ function App() {
      <About/>
      <OurMission/>
      <Portfolio/>
-     {/* <Newsletter/>
-     <Footer/> */}
+     <Newsletter/>
+     <Footer/>
     </>
   )
 }

@@ -5,6 +5,9 @@ footer{
     background-color: $black;
 
     & p{
+        @media(max-width:$sm){
+            font-size: 1.3rem;
+        }
         color: $white;
         font-size: $details;
         font-family:$rajhdani;
