@@ -1,6 +1,10 @@
 @import '../../../scss/variables';
 
 .newsletter{
+
+    @media (max-width:$lg){
+        flex-direction: column;
+    }
     display: flex;
     justify-content: space-between;
     gap: 6rem;
