@@ -1,6 +1,10 @@
 @import '../../../scss/variables';
 
 .our-mission{
+
+    @media(max-width:$xl){
+
+    }
     display: flex;
     padding: $vertical-padding $horizontal-padding;
     gap: 15rem;
@@ -49,8 +53,9 @@
     }
 
     & .our-mission__img-container{
-        @media (min-width:$xxl){
+        @media (min-width:$lg){
             background-size: cover;
+            background-position: center;
         }
         width: 50%;
         background: url('../../../assets/our-mission-photo.png');
